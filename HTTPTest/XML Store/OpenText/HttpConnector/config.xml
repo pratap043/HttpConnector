@@ -10,8 +10,8 @@
       <authenticate-always>true</authenticate-always>
       <check-certificate>false</check-certificate>
       <authtype>OAuth</authtype>
-     <client-id>U3ViaGE=</client-id>
-     <client-secret>MmRQRHc3R0I3cnYycjRQOWQ2SE51MW5VSzBuVHk5YXU=</client-secret>
+     <client-id>VGVzdC1BdXRoMQ==</client-id>
+     <client-secret>VWZlNjA2Zjg3Qmo4aDcxTEdGMnFramI4VURmbFVKckk=</client-secret>
      <auth-url>http://10.194.129.152:8085/otdsws/oauth2/token</auth-url>
     </connection>
    
