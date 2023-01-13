@@ -445,7 +445,7 @@
 			RuntimeDocumentID="F8E4E393-F8B3-A1EC-BAEB-64B697A789F7">
 			<DocumentID>F8E4E393-F8B3-A1EC-BAEB-64B697A749F7</DocumentID>
 			<Name>OT2OAuth</Name>
-			<Description>OT2OAuth:cn=HTTP,cn=soap nodes,o=system,cn=cordys,cn=defaultInst,o=vanenburg.com</Description>
+			<Description>OT2OAuth:cn=OpenText HTTP Connector,cn=soap nodes,o=system,cn=cordys,cn=defaultInst,o=opentext.net</Description>
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2022-06-14T06:45:28.733</CreationDate>
 			<Notes/>

@@ -1,7 +1,7 @@
 <configurations xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://httpconnector.opentext.com/1.0/configuration">
   <connections>
     <connection id="UserInfo_OAuth">
-      <url>http://srv-ind-pspiw4.lab.opentext.com:8081/otdsws/oauth2/userinfo</url>
+      <url>http://10.194.129.152:8085/otdsws/oauth2/userinfo</url>
       <timeout>3000</timeout>
       <desc>TestoAuth</desc>
       <username />
@@ -12,11 +12,11 @@
       <authtype>OAuth</authtype>
      <client-id>U3ViaGE=</client-id>
      <client-secret>MmRQRHc3R0I3cnYycjRQOWQ2SE51MW5VSzBuVHk5YXU=</client-secret>
-     <auth-url>http://srv-ind-pspiw4.lab.opentext.com:8081/otdsws/oauth2/token</auth-url>
+     <auth-url>http://10.194.129.152:8085/otdsws/oauth2/token</auth-url>
     </connection>
    
      <connection id="OAuthTest">
-      <url>http://srv-ind-pspiw4.lab.opentext.com:8081/otdsws/oauth2/userinfo</url>
+      <url>http://10.194.129.152:8085/otdsws/oauth2/userinfo</url>
      </connection>
 
       <connection id="OT2_OAuth">

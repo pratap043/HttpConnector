@@ -445,7 +445,7 @@
 			RuntimeDocumentID="00505601-0DB4-A1EC-B990-F386F1A4415D">
 			<DocumentID>00505601-0DB4-A1EC-B990-F386F1A4015D</DocumentID>
 			<Name>OAuthTest</Name>
-			<Description>OAuthTest:cn=HTTP,cn=soap nodes,o=system,cn=cordys,cn=defaultInst,o=vanenburg.com</Description>
+			<Description>OAuthTest:cn=OpenText HTTP Connector,cn=soap nodes,o=system,cn=cordys,cn=defaultInst,o=opentext.net</Description>
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2022-06-07T09:25:45.187</CreationDate>
 			<Notes/>
