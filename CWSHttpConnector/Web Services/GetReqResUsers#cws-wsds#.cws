@@ -439,7 +439,7 @@
 			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C3-B3E06294C9A8">
 			<DocumentID>28DFEB6B-98A5-A1ED-A4C3-B3E0629489A8</DocumentID>
 			<Name>RequestResponseUsersService</Name>
-			<Description>RequestResponseUsersService</Description>
+			<Description>RequestResponseUsersService:cn=OpenText HTTP Connector,cn=soap nodes,o=system,cn=cordys,cn=defaultInst,o=opentext.net</Description>
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2023-01-13T06:52:15.994</CreationDate>
 			<Notes/>
@@ -602,7 +602,7 @@
 										class="com.opentext.applicationconnector.httpconnector.impl.RestRequestHandler"
 									/>
 									<response-handler
-										class="com.opentext.applicationconnector.httpconnector.impl.StandardResponseHandler"
+										class="com.opentext.applicationconnector.httpconnector.impl.RestResponseHandler"
 									/>
 									<valid-response-code>200</valid-response-code>
 									<namespaces/>

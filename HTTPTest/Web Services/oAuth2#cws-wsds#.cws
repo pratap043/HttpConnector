@@ -3,16 +3,16 @@
 	xmlns:cws="http://schemas.cordys.com/cws/1.0"
 	type="com.cordys.wsdl.WebserviceDefinitionSet"
 	typeVersion="F8B156B5-0117-11E3-FA82-788562A8FFBA"
-	RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C0-7A8C234009A8">
-	<DocumentID>28DFEB6B-98A5-A1ED-A4C0-7A8C233FC9A8</DocumentID>
-	<Name>OpenDataEducationService</Name>
-	<Description>OpenDataEducationService</Description>
+	RuntimeDocumentID="00505601-0DB4-A1EC-B9F0-D808D6F4815D">
+	<DocumentID>00505601-0DB4-A1EC-B9F0-D808D6F4415D</DocumentID>
+	<Name>oAuth2</Name>
+	<Description>oAuth2</Description>
 	<CreatedBy>sysadmin</CreatedBy>
-	<CreationDate>2023-01-13T05:44:08.599</CreationDate>
+	<CreationDate>2022-06-09T08:04:12.98</CreationDate>
 	<Notes/>
 	<LocationURI></LocationURI>
 	<TNSPrefix>tns</TNSPrefix>
-	<TargetNamespace>odes</TargetNamespace>
+	<TargetNamespace>oAuth2</TargetNamespace>
 	<Type></Type>
 	<Connectors/>
 	<QName/>
@@ -20,12 +20,12 @@
 		<XMLSchemaDefinitionRuntime
 			type="com.cordys.xmlschema.XMLSchemaDefinitionRuntime"
 			typeVersion="005056C0-0008-11E1-E573-8D7E5F0533DB 115056C0-0008-71DF-BA44-1FBB9814E83B 0019B981-E9E3-11DF-FAD3-F797D376BD43"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936D749A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936D709A8</DocumentID>
-			<Name>28DFEB6B-98A5-A1ED-A4C1-52B936D709A8</Name>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C1415D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C1015D</DocumentID>
+			<Name>00505601-0DB4-A1EC-B9F2-AFCEE7C1015D</Name>
 			<Description/>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.225</CreationDate>
 			<Notes/>
 			<BinaryReferenceInfo></BinaryReferenceInfo>
 			<ExternalURL></ExternalURL>
@@ -50,18 +50,19 @@
 				<BusinessObjectDocument
 					type="com.cordys.businessobjectdocument.BusinessObjectDocument"
 					typeVersion="6180B612-C311-46F9-BBCA-F7240137C95A"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936D9C9A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936D989A8</DocumentID>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C3C15D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C3815D</DocumentID>
 					<Name>FaultDetails</Name>
 					<Description>FaultDetails(element)</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 					<Notes/>
 					<AnnotationSpecificationXML/>
 					<DefinitionXML>
 						<xsd:element
 							xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 							xmlns:cordys="http://schemas.cordys.com/General/1.0/"
+							xmlns=""
 							name="FaultDetails">
 							<xsd:complexType>
 								<xsd:sequence>
@@ -77,25 +78,26 @@
 					<Realizations/>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D709A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C1015D"
 						/>
 					</SchemaDefinition>
 				</BusinessObjectDocument>
 				<BusinessObjectDocument
 					type="com.cordys.businessobjectdocument.BusinessObjectDocument"
 					typeVersion="6180B612-C311-46F9-BBCA-F7240137C95A"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DA49A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DA09A8</DocumentID>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C4415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C4015D</DocumentID>
 					<Name>FaultRelatedException</Name>
 					<Description>FaultRelatedException(element)</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.228</CreationDate>
 					<Notes/>
 					<AnnotationSpecificationXML/>
 					<DefinitionXML>
 						<xsd:element
 							xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 							xmlns:cordys="http://schemas.cordys.com/General/1.0/"
+							xmlns=""
 							name="FaultRelatedException"
 							type="xsd:string"
 						/>
@@ -105,7 +107,7 @@
 					<Realizations/>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D709A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C1015D"
 						/>
 					</SchemaDefinition>
 				</BusinessObjectDocument>
@@ -113,19 +115,19 @@
 			<SchemaReferences>
 				<XSDReference
 					type="com.cordys.xmlschema.XSDReference"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936D949A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936D909A8</DocumentID>
-					<Name>Reference_to_28DFEB6B-98A5-A1ED-A4C1-52B936D789A8</Name>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C3415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C3015D</DocumentID>
+					<Name>Reference_to_00505601-0DB4-A1EC-B9F2-AFCEE7C1815D</Name>
 					<Description/>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.231</CreationDate>
 					<Notes/>
 					<LocationURI>http://schemas.cordys.com/CordysSchemas//CordysLocalizableMessage.xsd</LocationURI>
 					<NamespaceURI>http://schemas.cordys.com/General/1.0/</NamespaceURI>
 					<Prefix></Prefix>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D789A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C1815D"
 						/>
 					</SchemaDefinition>
 				</XSDReference>
@@ -134,12 +136,12 @@
 		<XMLSchemaDefinitionRuntime
 			type="com.cordys.xmlschema.XMLSchemaDefinitionRuntime"
 			typeVersion="005056C0-0008-11E1-E573-8D7E5F0533DB 115056C0-0008-71DF-BA44-1FBB9814E83B 0019B981-E9E3-11DF-FAD3-F797D376BD43"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936D7C9A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936D789A8</DocumentID>
-			<Name>28DFEB6B-98A5-A1ED-A4C1-52B936D789A8</Name>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C1C15D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C1815D</DocumentID>
+			<Name>00505601-0DB4-A1EC-B9F2-AFCEE7C1815D</Name>
 			<Description/>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.229</CreationDate>
 			<Notes/>
 			<BinaryReferenceInfo></BinaryReferenceInfo>
 			<ExternalURL></ExternalURL>
@@ -164,18 +166,19 @@
 				<BusinessObjectDocument
 					type="com.cordys.businessobjectdocument.BusinessObjectDocument"
 					typeVersion="6180B612-C311-46F9-BBCA-F7240137C95A"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936D849A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936D809A8</DocumentID>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C2415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C2015D</DocumentID>
 					<Name>LocalizableMessage</Name>
 					<Description>LocalizableMessage(element)</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.227</CreationDate>
 					<Notes/>
 					<AnnotationSpecificationXML/>
 					<DefinitionXML>
 						<xsd:element
 							xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 							xmlns:cordys="http://schemas.cordys.com/General/1.0/"
+							xmlns=""
 							name="LocalizableMessage">
 							<xsd:complexType>
 								<xsd:sequence>
@@ -200,25 +203,26 @@
 					<Realizations/>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D789A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C1815D"
 						/>
 					</SchemaDefinition>
 				</BusinessObjectDocument>
 				<BusinessObjectDocument
 					type="com.cordys.businessobjectdocument.BusinessObjectDocument"
 					typeVersion="6180B612-C311-46F9-BBCA-F7240137C95A"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936D8C9A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936D889A8</DocumentID>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C2C15D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C2815D</DocumentID>
 					<Name>NestedMessage</Name>
 					<Description>NestedMessage(complexType)</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 					<Notes/>
 					<AnnotationSpecificationXML/>
 					<DefinitionXML>
 						<xsd:complexType
 							xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 							xmlns:cordys="http://schemas.cordys.com/General/1.0/"
+							xmlns=""
 							name="NestedMessage"
 							mixed="true">
 							<xsd:sequence
@@ -250,7 +254,7 @@
 					<Realizations/>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D789A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C1815D"
 						/>
 					</SchemaDefinition>
 				</BusinessObjectDocument>
@@ -262,96 +266,98 @@
 		<InlineSchemaDefinition
 			type="com.cordys.xmlschema.InlineSchemaDefinition"
 			typeVersion="115056C0-0008-71DF-BA44-1FBB9814E83B"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936D6C9A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936D689A8</DocumentID>
-			<Name>28DFEB6B-98A5-A1ED-A4C1-52B936D689A8</Name>
-			<Description>Inline Schema with TNS odes</Description>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C0C15D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C0815D</DocumentID>
+			<Name>00505601-0DB4-A1EC-B9F2-AFCEE7C0815D</Name>
+			<Description>Inline Schema with TNS oAuth2</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.227</CreationDate>
 			<Notes/>
 			<ExternalURL></ExternalURL>
 			<Location></Location>
 			<NamespaceReferencePrefix>tns</NamespaceReferencePrefix>
-			<TargetNamespace>odes</TargetNamespace>
+			<TargetNamespace>oAuth2</TargetNamespace>
 			<WebserviceDefinitionSetID></WebserviceDefinitionSetID>
 			<XmlNode>
 				<xsd:schema
 					xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 					xmlns:cordys="http://schemas.cordys.com/General/1.0/"
 					xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-					xmlns:tns="odes"
+					xmlns:tns="oAuth2"
 					xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
 					xmlns=""
 					attributeFormDefault="unqualified"
 					elementFormDefault="qualified"
-					targetNamespace="odes"
+					targetNamespace="oAuth2"
 				/>
 			</XmlNode>
 			<DefinitionSet>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C0-7A8C233FC9A8"
+					id="00505601-0DB4-A1EC-B9F0-D808D6F4415D"
 				/>
 			</DefinitionSet>
 			<SchemaFragments>
 				<BusinessObjectDocument
 					type="com.cordys.businessobjectdocument.BusinessObjectDocument"
 					typeVersion="6180B612-C311-46F9-BBCA-F7240137C95A"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DB49A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DB09A8</DocumentID>
-					<Name>GetBirminghamInfo</Name>
-					<Description>GetBirminghamInfo(element)</Description>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C5415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C5015D</DocumentID>
+					<Name>oAUth2</Name>
+					<Description>oAUth2(element)</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.225</CreationDate>
 					<Notes/>
 					<AnnotationSpecificationXML/>
 					<DefinitionXML>
 						<xsd:element
 							xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 							xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-							xmlns:tns="odes"
+							xmlns:tns="oAuth2"
 							xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
 							xmlns:cordys="http://schemas.cordys.com/General/1.0/"
-							name="GetBirminghamInfo"
+							xmlns=""
+							name="oAUth2"
 							type="xsd:anyType"
 						/>
 					</DefinitionXML>
-					<FragmentName>GetBirminghamInfo</FragmentName>
+					<FragmentName>oAUth2</FragmentName>
 					<Type>element</Type>
 					<Realizations/>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D689A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C0815D"
 						/>
 					</SchemaDefinition>
 				</BusinessObjectDocument>
 				<BusinessObjectDocument
 					type="com.cordys.businessobjectdocument.BusinessObjectDocument"
 					typeVersion="6180B612-C311-46F9-BBCA-F7240137C95A"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DBC9A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DB89A8</DocumentID>
-					<Name>GetBirminghamInfoResponse</Name>
-					<Description>GetBirminghamInfoResponse(element)</Description>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C5C15D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C5815D</DocumentID>
+					<Name>oAUth2Response</Name>
+					<Description>oAUth2Response(element)</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.226</CreationDate>
 					<Notes/>
 					<AnnotationSpecificationXML/>
 					<DefinitionXML>
 						<xsd:element
 							xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 							xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-							xmlns:tns="odes"
+							xmlns:tns="oAuth2"
 							xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
 							xmlns:cordys="http://schemas.cordys.com/General/1.0/"
-							name="GetBirminghamInfoResponse"
+							xmlns=""
+							name="oAUth2Response"
 							type="xsd:anyType"
 						/>
 					</DefinitionXML>
-					<FragmentName>GetBirminghamInfoResponse</FragmentName>
+					<FragmentName>oAUth2Response</FragmentName>
 					<Type>element</Type>
 					<Realizations/>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D689A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C0815D"
 						/>
 					</SchemaDefinition>
 				</BusinessObjectDocument>
@@ -359,19 +365,19 @@
 			<SchemaReferences>
 				<XSDReference
 					type="com.cordys.xmlschema.XSDReference"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DAC9A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DA89A8</DocumentID>
-					<Name>Reference_to_28DFEB6B-98A5-A1ED-A4C1-52B936D709A8</Name>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C4C15D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C4815D</DocumentID>
+					<Name>Reference_to_00505601-0DB4-A1EC-B9F2-AFCEE7C1015D</Name>
 					<Description/>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.229</CreationDate>
 					<Notes/>
 					<LocationURI>http://schemas.cordys.com/CordysSchemas//CordysFaultDetails.xsd</LocationURI>
 					<NamespaceURI>http://schemas.cordys.com/General/1.0/</NamespaceURI>
 					<Prefix></Prefix>
 					<SchemaDefinition>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936D709A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C1015D"
 						/>
 					</SchemaDefinition>
 				</XSDReference>
@@ -381,32 +387,32 @@
 	<Services>
 		<Service
 			type="com.cordys.wsdl.Service"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E6C9A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E689A8</DocumentID>
-			<Name>OpenDataEducationServiceService</Name>
-			<Description>odes OpenDataEducationServiceService</Description>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7D0C15D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7D0815D</DocumentID>
+			<Name>oAUth2Service</Name>
+			<Description>oAuth2 oAUth2Service</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.157</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.229</CreationDate>
 			<Notes/>
 			<Ports>
 				<Port
 					type="com.cordys.wsdl.Port"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E749A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E709A8</DocumentID>
-					<Name>OpenDataEducationServicePort</Name>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7D1415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7D1015D</DocumentID>
+					<Name>oAUth2Port</Name>
 					<Description/>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.226</CreationDate>
 					<Notes/>
 					<PortExtension>
 						<SOAPPort
 							type="com.cordys.wsdl.SOAPPort"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E7C9A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E789A8</DocumentID>
-							<Name>28DFEB6B-98A5-A1ED-A4C1-52B936E789A8</Name>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7D1C15D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7D1815D</DocumentID>
+							<Name>00505601-0DB4-A1EC-B9F2-AFCEE7D1815D</Name>
 							<Description/>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.157</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 							<Notes/>
 							<AddressLocation>com.eibus.web.soap.Gateway.wcp</AddressLocation>
 							<IsRequired>false</IsRequired>
@@ -414,12 +420,12 @@
 					</PortExtension>
 					<Service>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936E689A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7D0815D"
 						/>
 					</Service>
 					<WebserviceBinding>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936E109A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7CB015D"
 						/>
 					</WebserviceBinding>
 				</Port>
@@ -427,7 +433,7 @@
 			<QName/>
 			<WebserviceDefinitionSet>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C0-7A8C233FC9A8"
+					id="00505601-0DB4-A1EC-B9F0-D808D6F4415D"
 				/>
 			</WebserviceDefinitionSet>
 		</Service>
@@ -436,31 +442,31 @@
 		<WebserviceBinding
 			type="com.cordys.wsdl.WebserviceBinding"
 			typeVersion="59F595CB-70A2-4E99-A062-84706C227D3F"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E149A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E109A8</DocumentID>
-			<Name>OpenDataEducationService</Name>
-			<Description>OpenDataEducationService:cn=OpenText HTTP Connector,cn=soap nodes,o=system,cn=cordys,cn=defaultInst,o=opentext.net</Description>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CB415D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CB015D</DocumentID>
+			<Name>oAUth2</Name>
+			<Description>oAUth2:cn=OpenText HTTP Connector,cn=soap nodes,o=system,cn=cordys,cn=defaultInst,o=opentext.net</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.228</CreationDate>
 			<Notes/>
 			<ImplementationClass></ImplementationClass>
 			<OldRuntimeWebserviceInterfaceName></OldRuntimeWebserviceInterfaceName>
-			<RuntimeWebserviceInterfaceName>OpenDataEducationService.OpenDataEducationService</RuntimeWebserviceInterfaceName>
+			<RuntimeWebserviceInterfaceName>oAuth2.oAUth2</RuntimeWebserviceInterfaceName>
 			<Type></Type>
 			<ApplicationConnector>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C0-7A8C234A89A8"
+					id="00505601-2fb1-a1ec-9a22-ca4fab61bb4c"
 				/>
 			</ApplicationConnector>
 			<BindingExtension>
 				<SOAPBinding
 					type="com.cordys.wsdl.SOAPBinding"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E1C9A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E189A8</DocumentID>
-					<Name>SOAP Binding OpenDataEducationService</Name>
-					<Description>SOAP Binding OpenDataEducationService</Description>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CBC15D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CB815D</DocumentID>
+					<Name>SOAP Binding oAUth2</Name>
+					<Description>SOAP Binding oAUth2</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.157</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.228</CreationDate>
 					<Notes/>
 					<IsRequired>false</IsRequired>
 					<Style>document</Style>
@@ -470,44 +476,44 @@
 			<BindingOperations>
 				<BindingOperation
 					type="com.cordys.wsdl.BindingOperation"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E249A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E209A8</DocumentID>
-					<Name>GetBirminghamInfo</Name>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CC415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CC015D</DocumentID>
+					<Name>oAUth2</Name>
 					<Description/>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.227</CreationDate>
 					<Notes/>
 					<BindingOperationFault/>
 					<BindingOperationInput>
 						<BindingOperationInput
 							type="com.cordys.wsdl.BindingOperationInput"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E3C9A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E389A8</DocumentID>
-							<Name>Binding Input of GetBirminghamInfo</Name>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CDC15D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CD815D</DocumentID>
+							<Name>Binding Input of oAUth2</Name>
 							<Description/>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.157</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.229</CreationDate>
 							<Notes/>
 							<InputExtension>
 								<SOAPInput
 									type="com.cordys.wsdl.SOAPInput"
-									RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E449A8">
-									<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E409A8</DocumentID>
-									<Name>28DFEB6B-98A5-A1ED-A4C1-52B936E409A8</Name>
+									RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CE415D">
+									<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CE015D</DocumentID>
+									<Name>00505601-0DB4-A1EC-B9F2-AFCEE7CE015D</Name>
 									<Description/>
 									<CreatedBy>sysadmin</CreatedBy>
-									<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+									<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 									<Notes/>
 									<IsRequired>false</IsRequired>
 									<SOAPBody>
 										<SOAPBody
 											type="com.cordys.wsdl.SOAPBody"
-											RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E4C9A8">
-											<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E489A8</DocumentID>
-											<Name>28DFEB6B-98A5-A1ED-A4C1-52B936E489A8</Name>
+											RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CEC15D">
+											<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CE815D</DocumentID>
+											<Name>00505601-0DB4-A1EC-B9F2-AFCEE7CE815D</Name>
 											<Description/>
 											<CreatedBy>sysadmin</CreatedBy>
-											<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+											<CreationDate>2022-06-09T08:04:13.231</CreationDate>
 											<Notes/>
 											<EncodingStyle></EncodingStyle>
 											<IsRequired>false</IsRequired>
@@ -524,33 +530,33 @@
 					<BindingOperationOutput>
 						<BindingOperationOutput
 							type="com.cordys.wsdl.BindingOperationOutput"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E549A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E509A8</DocumentID>
-							<Name>Binding Output of GetBirminghamInfo</Name>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CF415D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CF015D</DocumentID>
+							<Name>Binding Output of oAUth2</Name>
 							<Description/>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.227</CreationDate>
 							<Notes/>
 							<OutputExtension>
 								<SOAPOutput
 									type="com.cordys.wsdl.SOAPOutput"
-									RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E5C9A8">
-									<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E589A8</DocumentID>
-									<Name>28DFEB6B-98A5-A1ED-A4C1-52B936E589A8</Name>
+									RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CFC15D">
+									<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CF815D</DocumentID>
+									<Name>00505601-0DB4-A1EC-B9F2-AFCEE7CF815D</Name>
 									<Description/>
 									<CreatedBy>sysadmin</CreatedBy>
-									<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+									<CreationDate>2022-06-09T08:04:13.224</CreationDate>
 									<Notes/>
 									<IsRequired>false</IsRequired>
 									<SOAPBody>
 										<SOAPBody
 											type="com.cordys.wsdl.SOAPBody"
-											RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E649A8">
-											<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E609A8</DocumentID>
-											<Name>28DFEB6B-98A5-A1ED-A4C1-52B936E609A8</Name>
+											RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7D0415D">
+											<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7D0015D</DocumentID>
+											<Name>00505601-0DB4-A1EC-B9F2-AFCEE7D0015D</Name>
 											<Description/>
 											<CreatedBy>sysadmin</CreatedBy>
-											<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+											<CreationDate>2022-06-09T08:04:13.227</CreationDate>
 											<Notes/>
 											<EncodingStyle></EncodingStyle>
 											<IsRequired>false</IsRequired>
@@ -567,12 +573,12 @@
 					<OperationExtension>
 						<SOAPOperation
 							type="com.cordys.wsdl.SOAPOperation"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E349A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E309A8</DocumentID>
-							<Name>SOAP Operation of GetBirminghamInfo</Name>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CD415D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CD015D</DocumentID>
+							<Name>SOAP Operation of oAUth2</Name>
 							<Description/>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.229</CreationDate>
 							<Notes/>
 							<IsRequired>false</IsRequired>
 							<SOAPAction></SOAPAction>
@@ -582,27 +588,31 @@
 					<Realizations>
 						<CustomRealization
 							type="com.cordys.wsdl.CustomRealization"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C0-7A8C233D89A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C0-7A8C233D49A8</DocumentID>
-							<Name>GetBirminghamInfo_realization</Name>
-							<Description>GetBirminghamInfo_realization</Description>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F0-D808D6F1C15D">
+							<DocumentID>00505601-0DB4-A1EC-B9F0-D808D6F1815D</DocumentID>
+							<Name>oAUth2_realization</Name>
+							<Description>oAUth2_realization</Description>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.605</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.956</CreationDate>
 							<Notes/>
 							<Implementation>
 								<implementation
 									xmlns="http://httpconnector.opentext.com/1.0/implementation"
+									xmlns:cws="http://schemas.cordys.com/cws/1.0"
 									xmlns:c="http://schemas.cordys.com/cws/1.0"
 									xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"
 									type="HTTP">
-									<connection-id>OPENDATA-EDUCATION</connection-id>
-									<uri>/rest/sif/requests/SchoolInfos/C693E567C79259EA95669EA2F811ED63</uri>
+									<connection-id>OAuthTest</connection-id>
 									<http-method>GET</http-method>
 									<request-handler
-										class="com.opentext.applicationconnector.httpconnector.impl.RestRequestHandler"
-									/>
+										class="com.opentext.applicationconnector.httpconnector.impl.RestRequestHandler">
+										<req-headers>
+											<header
+												name="Content-Type">application/json</header>
+										</req-headers>
+									</request-handler>
 									<response-handler
-										class="com.opentext.applicationconnector.httpconnector.impl.StandardResponseHandler"
+										class="com.opentext.applicationconnector.httpconnector.impl.RestResponseHandler"
 									/>
 									<valid-response-code>200</valid-response-code>
 									<namespaces/>
@@ -610,7 +620,7 @@
 							</Implementation>
 							<BindingOperation>
 								<uri
-									id="28DFEB6B-98A5-A1ED-A4C1-52B936E209A8"
+									id="00505601-0DB4-A1EC-B9F2-AFCEE7CC015D"
 								/>
 							</BindingOperation>
 						</CustomRealization>
@@ -619,12 +629,12 @@
 						<SecurityDescriptor
 							type="com.cordys.acl.SecurityDescriptor"
 							typeVersion="FFB228E4-5344-4FC9-893D-77229FA7C061"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E2C9A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E289A8</DocumentID>
-							<Name>GetBirminghamInfo</Name>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CCC15D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CC815D</DocumentID>
+							<Name>oAUth2</Name>
 							<Description/>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.225</CreationDate>
 							<Notes/>
 							<inherit>true</inherit>
 							<accesscontrolentries/>
@@ -633,7 +643,7 @@
 							<instanceConditions/>
 							<securedObject>
 								<uri
-									id="28DFEB6B-98A5-A1ED-A4C1-52B936E209A8"
+									id="00505601-0DB4-A1EC-B9F2-AFCEE7CC015D"
 								/>
 							</securedObject>
 							<staticConditions/>
@@ -641,14 +651,14 @@
 					</SecurityDescriptor>
 					<WebserviceBinding>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936E109A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7CB015D"
 						/>
 					</WebserviceBinding>
 				</BindingOperation>
 			</BindingOperations>
 			<Ports>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C1-52B936E709A8"
+					id="00505601-0DB4-A1EC-B9F2-AFCEE7D1015D"
 				/>
 			</Ports>
 			<QName/>
@@ -656,12 +666,12 @@
 				<SecurityDescriptor
 					type="com.cordys.acl.SecurityDescriptor"
 					typeVersion="FFB228E4-5344-4FC9-893D-77229FA7C061"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E849A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E809A8</DocumentID>
-					<Name>OpenDataEducationService</Name>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7D2415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7D2015D</DocumentID>
+					<Name>oAUth2</Name>
 					<Description/>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 					<Notes/>
 					<inherit>true</inherit>
 					<accesscontrolentries/>
@@ -670,7 +680,7 @@
 					<instanceConditions/>
 					<securedObject>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936E109A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7CB015D"
 						/>
 					</securedObject>
 					<staticConditions/>
@@ -678,12 +688,12 @@
 			</SecurityDescriptor>
 			<WebserviceDefinitionSet>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C0-7A8C233FC9A8"
+					id="00505601-0DB4-A1EC-B9F0-D808D6F4415D"
 				/>
 			</WebserviceDefinitionSet>
 			<WebserviceInterface>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C1-52B936DF09A8"
+					id="00505601-0DB4-A1EC-B9F2-AFCEE7C9015D"
 				/>
 			</WebserviceInterface>
 		</WebserviceBinding>
@@ -692,50 +702,50 @@
 	<WebserviceInterfaces>
 		<WebserviceInterfaceDesigntime
 			type="com.cordys.wsdl.WebserviceInterfaceDesigntime"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DF49A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DF09A8</DocumentID>
-			<Name>OpenDataEducationService</Name>
-			<Description>OpenDataEducationService</Description>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C9415D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C9015D</DocumentID>
+			<Name>oAUth2</Name>
+			<Description>oAUth2</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.225</CreationDate>
 			<Notes/>
 			<QName/>
 			<RuntimeAvailableSchemaDefinitions/>
 			<WebserviceBindings>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C1-52B936E109A8"
+					id="00505601-0DB4-A1EC-B9F2-AFCEE7CB015D"
 				/>
 			</WebserviceBindings>
 			<WebserviceDefinitionSet>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C0-7A8C233FC9A8"
+					id="00505601-0DB4-A1EC-B9F0-D808D6F4415D"
 				/>
 			</WebserviceDefinitionSet>
 			<WebserviceOperations>
 				<WebserviceOperationDesigntime
 					type="com.cordys.wsdl.WebserviceOperationDesigntime"
 					typeVersion="9283B20E-CD69-4c52-A954-1DA1482DB330"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DFC9A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DF89A8</DocumentID>
-					<Name>GetBirminghamInfo</Name>
-					<Description>GetBirminghamInfo</Description>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C9C15D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C9815D</DocumentID>
+					<Name>oAUth2</Name>
+					<Description>oAUth2</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.226</CreationDate>
 					<Notes/>
 					<WebserviceFaults/>
 					<WebserviceInput>
 						<WebserviceInput
 							type="com.cordys.wsdl.WebserviceInput"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E049A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E009A8</DocumentID>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CA415D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CA015D</DocumentID>
 							<Name>Missing_Operation_Name</Name>
 							<Description/>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.155</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.224</CreationDate>
 							<Notes/>
 							<WebserviceMessage>
 								<uri
-									id="28DFEB6B-98A5-A1ED-A4C1-52B936DC09A8"
+									id="00505601-0DB4-A1EC-B9F2-AFCEE7C6015D"
 								/>
 							</WebserviceMessage>
 							<WebserviceOperation/>
@@ -743,22 +753,22 @@
 					</WebserviceInput>
 					<WebserviceInterface>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936DF09A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C9015D"
 						/>
 					</WebserviceInterface>
 					<WebserviceOutput>
 						<WebserviceOutput
 							type="com.cordys.wsdl.WebserviceOutput"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936E0C9A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936E089A8</DocumentID>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7CAC15D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7CA815D</DocumentID>
 							<Name>Missing_Operation_Name</Name>
 							<Description/>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.154</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.228</CreationDate>
 							<Notes/>
 							<WebserviceMessage>
 								<uri
-									id="28DFEB6B-98A5-A1ED-A4C1-52B936DD89A8"
+									id="00505601-0DB4-A1EC-B9F2-AFCEE7C7815D"
 								/>
 							</WebserviceMessage>
 							<WebserviceOperation/>
@@ -771,23 +781,23 @@
 	<WebserviceMessages>
 		<WebserviceMessage
 			type="com.cordys.wsdl.WebserviceMessage"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DC49A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DC09A8</DocumentID>
-			<Name>GetBirminghamInfoInput</Name>
-			<Description>GetBirminghamInfoInput</Description>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C6415D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C6015D</DocumentID>
+			<Name>oAUth2Input</Name>
+			<Description>oAUth2Input</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.224</CreationDate>
 			<Notes/>
 			<Parts>
 				<Part
 					type="com.cordys.wsdl.Part"
 					typeVersion="80000B01-86FE-11E6-FE82-29A8BA1EF7DD"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DCC9A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DC89A8</DocumentID>
-					<Name>28DFEB6B-98A5-A1ED-A4C1-52B936DC89A8</Name>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C6C15D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C6815D</DocumentID>
+					<Name>00505601-0DB4-A1EC-B9F2-AFCEE7C6815D</Name>
 					<Description>body</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.153</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 					<Notes/>
 					<ElementOrType>element</ElementOrType>
 					<PartName>body</PartName>
@@ -795,24 +805,24 @@
 					<DescribingFragment>
 						<SchemaFragmentReference
 							type="com.cordys.xmlschema.SchemaFragmentReference"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DD49A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DD09A8</DocumentID>
-							<Name>ReferenceTo GetBirminghamInfo</Name>
-							<Description>ReferenceTo GetBirminghamInfo</Description>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C7415D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C7015D</DocumentID>
+							<Name>ReferenceTo oAUth2</Name>
+							<Description>ReferenceTo oAUth2</Description>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.157</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.225</CreationDate>
 							<Notes/>
 							<Prefix>tns</Prefix>
 							<SchemaFragment>
 								<uri
-									id="28DFEB6B-98A5-A1ED-A4C1-52B936DB09A8"
+									id="00505601-0DB4-A1EC-B9F2-AFCEE7C5015D"
 								/>
 							</SchemaFragment>
 						</SchemaFragmentReference>
 					</DescribingFragment>
 					<WebserviceMessage>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936DC09A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C6015D"
 						/>
 					</WebserviceMessage>
 				</Part>
@@ -820,36 +830,36 @@
 			<QName/>
 			<WebserviceDefinitionSet>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C0-7A8C233FC9A8"
+					id="00505601-0DB4-A1EC-B9F0-D808D6F4415D"
 				/>
 			</WebserviceDefinitionSet>
 			<WebserviceFault/>
 			<WebserviceInput>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C1-52B936E009A8"
+					id="00505601-0DB4-A1EC-B9F2-AFCEE7CA015D"
 				/>
 			</WebserviceInput>
 			<WebserviceOutput/>
 		</WebserviceMessage>
 		<WebserviceMessage
 			type="com.cordys.wsdl.WebserviceMessage"
-			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DDC9A8">
-			<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DD89A8</DocumentID>
-			<Name>GetBirminghamInfoOutput</Name>
-			<Description>GetBirminghamInfoOutput</Description>
+			RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C7C15D">
+			<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C7815D</DocumentID>
+			<Name>oAUth2Output</Name>
+			<Description>oAUth2Output</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+			<CreationDate>2022-06-09T08:04:13.228</CreationDate>
 			<Notes/>
 			<Parts>
 				<Part
 					type="com.cordys.wsdl.Part"
 					typeVersion="80000B01-86FE-11E6-FE82-29A8BA1EF7DD"
-					RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DE49A8">
-					<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DE09A8</DocumentID>
-					<Name>28DFEB6B-98A5-A1ED-A4C1-52B936DE09A8</Name>
+					RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C8415D">
+					<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C8015D</DocumentID>
+					<Name>00505601-0DB4-A1EC-B9F2-AFCEE7C8015D</Name>
 					<Description>body</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+					<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 					<Notes/>
 					<ElementOrType>element</ElementOrType>
 					<PartName>body</PartName>
@@ -857,24 +867,24 @@
 					<DescribingFragment>
 						<SchemaFragmentReference
 							type="com.cordys.xmlschema.SchemaFragmentReference"
-							RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C1-52B936DEC9A8">
-							<DocumentID>28DFEB6B-98A5-A1ED-A4C1-52B936DE89A8</DocumentID>
-							<Name>ReferenceTo GetBirminghamInfoResponse</Name>
-							<Description>ReferenceTo GetBirminghamInfoResponse</Description>
+							RuntimeDocumentID="00505601-0DB4-A1EC-B9F2-AFCEE7C8C15D">
+							<DocumentID>00505601-0DB4-A1EC-B9F2-AFCEE7C8815D</DocumentID>
+							<Name>ReferenceTo oAUth2Response</Name>
+							<Description>ReferenceTo oAUth2Response</Description>
 							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2023-01-13T05:44:09.156</CreationDate>
+							<CreationDate>2022-06-09T08:04:13.23</CreationDate>
 							<Notes/>
 							<Prefix>tns</Prefix>
 							<SchemaFragment>
 								<uri
-									id="28DFEB6B-98A5-A1ED-A4C1-52B936DB89A8"
+									id="00505601-0DB4-A1EC-B9F2-AFCEE7C5815D"
 								/>
 							</SchemaFragment>
 						</SchemaFragmentReference>
 					</DescribingFragment>
 					<WebserviceMessage>
 						<uri
-							id="28DFEB6B-98A5-A1ED-A4C1-52B936DD89A8"
+							id="00505601-0DB4-A1EC-B9F2-AFCEE7C7815D"
 						/>
 					</WebserviceMessage>
 				</Part>
@@ -882,14 +892,14 @@
 			<QName/>
 			<WebserviceDefinitionSet>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C0-7A8C233FC9A8"
+					id="00505601-0DB4-A1EC-B9F0-D808D6F4415D"
 				/>
 			</WebserviceDefinitionSet>
 			<WebserviceFault/>
 			<WebserviceInput/>
 			<WebserviceOutput>
 				<uri
-					id="28DFEB6B-98A5-A1ED-A4C1-52B936E089A8"
+					id="00505601-0DB4-A1EC-B9F2-AFCEE7CA815D"
 				/>
 			</WebserviceOutput>
 		</WebserviceMessage>

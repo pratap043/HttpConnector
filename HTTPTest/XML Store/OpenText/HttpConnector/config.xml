@@ -1,0 +1,38 @@
+<configurations xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://httpconnector.opentext.com/1.0/configuration">
+  <connections>
+    <connection id="UserInfo_OAuth">
+      <url>http://srv-ind-pspiw4.lab.opentext.com:8081/otdsws/oauth2/userinfo</url>
+      <timeout>3000</timeout>
+      <desc>TestoAuth</desc>
+      <username />
+      <password />
+      <use-proxy>false</use-proxy>
+      <authenticate-always>true</authenticate-always>
+      <check-certificate>false</check-certificate>
+      <authtype>OAuth</authtype>
+     <client-id>U3ViaGE=</client-id>
+     <client-secret>MmRQRHc3R0I3cnYycjRQOWQ2SE51MW5VSzBuVHk5YXU=</client-secret>
+     <auth-url>http://srv-ind-pspiw4.lab.opentext.com:8081/otdsws/oauth2/token</auth-url>
+    </connection>
+   
+     <connection id="OAuthTest">
+      <url>http://srv-ind-pspiw4.lab.opentext.com:8081/otdsws/oauth2/userinfo</url>
+     </connection>
+
+      <connection id="OT2_OAuth">
+      <url>https://ets-admincenterdevspace.dev.bp-paas.otxlab.net</url>
+      <timeout>3000</timeout>
+      <desc>TestOT2Auth</desc>
+      <username />
+      <password />
+      <use-proxy>true</use-proxy>
+      <authenticate-always>true</authenticate-always>
+      <check-certificate>false</check-certificate>
+      <authtype>OAuth</authtype>
+     <client-id>dGVzdE9hdXRo</client-id>
+     <client-secret>5QjGxz9gTN1Ga08lhv88rHK6B7rbf9YS</client-secret>
+     <auth-url>https://otdsauth-admincenterdevspace.dev.bp-paas.otxlab.net/oauth2/token</auth-url>
+    </connection>
+
+  </connections>
+</configurations>
