@@ -1,0 +1,7 @@
+<configurations xmlns="http://httpconnector.opentext.com/1.0/configuration">
+    <connections>
+        <connection id="OPENDATA-EDUCATION">
+            <url>https://api.opendata.education</url>
+        </connection>
+    </connections>
+</configurations>

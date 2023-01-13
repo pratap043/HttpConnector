@@ -1,0 +1,44 @@
+
+<XMLStoreSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xmlstore.sourceroot.XMLStoreSource"
+	RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C0-7A8C2347C9A8">
+	<DocumentID>28DFEB6B-98A5-A1ED-A4C0-7A8C234789A8</DocumentID>
+	<Name>HttpConnector Config</Name>
+	<Description>HttpConnector Config</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-13T05:37:29.889</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SecurityDescriptor>
+		<XMLStoreSecurityDescriptor
+			type="com.cordys.xmlstore.sourceroot.XMLStoreSecurityDescriptor"
+			typeVersion="FFB228E4-5344-4FC9-893D-77229FA7C061"
+			RuntimeDocumentID="28DFEB6B-98A5-A1ED-A4C0-7A8C234749A8">
+			<DocumentID>28DFEB6B-98A5-A1ED-A4C0-7A8C234709A8</DocumentID>
+			<Name>Untitled XML Store Definition</Name>
+			<Description>Untitled XML Store Definition</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-13T05:37:29.889</CreationDate>
+			<Notes/>
+			<inherit>true</inherit>
+			<accesscontrolentries/>
+			<accesscontrollists/>
+			<conditions/>
+			<instanceConditions/>
+			<securedObject>
+				<uri
+					id="28DFEB6B-98A5-A1ED-A4C0-7A8C234789A8"
+				/>
+			</securedObject>
+			<staticConditions/>
+		</XMLStoreSecurityDescriptor>
+	</SecurityDescriptor>
+	<SourceFolder>
+		<uri
+			id="28DFEB6B-98A5-A1ED-A4C0-7A8C234889A8"
+			path="CWSHttpConnector/XML Store"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</XMLStoreSource>
