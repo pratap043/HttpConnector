@@ -602,7 +602,7 @@
 									xmlns:c="http://schemas.cordys.com/cws/1.0"
 									xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"
 									type="HTTP">
-									<connection-id>UserInfo_OAuth</connection-id>
+									<connection-id>OAuthTest</connection-id>
 									<http-method>GET</http-method>
 									<request-handler
 										class="com.opentext.applicationconnector.httpconnector.impl.RestRequestHandler">

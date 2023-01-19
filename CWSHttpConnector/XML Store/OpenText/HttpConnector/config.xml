@@ -1,7 +1,41 @@
-<configurations xmlns="http://httpconnector.opentext.com/1.0/configuration">
-    <connections>
-        <connection id="REQUEST-RESPONSE-USERS">
-            <url>https://reqres.in</url>
-        </connection>
-    </connections>
+<configurations xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://httpconnector.opentext.com/1.0/configuration">
+  <connections>
+    <connection id="UserInfo_OAuth">
+      <url>http://10.194.129.152:8085/otdsws/oauth2/userinfo</url>
+      <timeout>3000</timeout>
+      <desc>TestoAuth</desc>
+      <username />
+      <password />
+      <use-proxy>false</use-proxy>
+      <authenticate-always>true</authenticate-always>
+      <check-certificate>false</check-certificate>
+      <authtype>OAuth</authtype>
+     <client-id>VGVzdC1BdXRoMQ==</client-id>
+     <client-secret>VWZlNjA2Zjg3Qmo4aDcxTEdGMnFramI4VURmbFVKckk=</client-secret>
+     <auth-url>http://10.194.129.152:8085/otdsws/oauth2/token</auth-url>
+    </connection>
+   
+     <connection id="OAuthTest">
+      <url>http://10.194.129.152:8085/otdsws/oauth2/userinfo</url>
+     </connection>
+
+      <connection id="OT2_OAuth">
+      <url>https://ets-admincenterdevspace.dev.bp-paas.otxlab.net</url>
+      <timeout>3000</timeout>
+      <desc>TestOT2Auth</desc>
+      <username />
+      <password />
+      <use-proxy>true</use-proxy>
+      <authenticate-always>true</authenticate-always>
+      <check-certificate>false</check-certificate>
+      <authtype>OAuth</authtype>
+     <client-id>dGVzdE9hdXRo</client-id>
+     <client-secret>5QjGxz9gTN1Ga08lhv88rHK6B7rbf9YS</client-secret>
+     <auth-url>https://otdsauth-admincenterdevspace.dev.bp-paas.otxlab.net/oauth2/token</auth-url>
+    </connection>
+	<connection id="REQUEST-RESPONSE-USERS">
+		<url>https://reqres.in</url>
+	</connection>
+
+  </connections>
 </configurations>
